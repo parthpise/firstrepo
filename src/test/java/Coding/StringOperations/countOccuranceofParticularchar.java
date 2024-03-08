@@ -2,7 +2,7 @@ package Coding.StringOperations;
 
 public class countOccuranceofParticularchar {
     public static void main(String [] args){
-        String s = "Praveen";
+        String s = "Partha";
         s = s.toLowerCase();
 
         char [] sArray = s.toCharArray();
