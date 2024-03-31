@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 public class xpathSiblings {
     static WebDriver driver;
     public static void main(String [] args){
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\91968\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\91968\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
