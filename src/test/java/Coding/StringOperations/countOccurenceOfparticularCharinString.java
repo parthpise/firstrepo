@@ -8,7 +8,7 @@ public class countOccurenceOfparticularCharinString {
 
         char [] s = a.toCharArray();
 
-        HashMap<Character,Integer>  countChar = new HashMap<>();
+        HashMap<Character,Integer> countChar = new HashMap<>();
 
         for(char b : s){
             if(countChar.containsKey(b)){
@@ -19,6 +19,5 @@ public class countOccurenceOfparticularCharinString {
             }
         }
         System.out.println(countChar);
-
     }
 }

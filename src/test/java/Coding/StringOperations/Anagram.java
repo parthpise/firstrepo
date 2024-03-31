@@ -13,6 +13,7 @@ public class Anagram {
         if(f.length() != s.length()){
             System.out.println("The given strings are not anagrams");
         }
+
         else{
 
             char[] fArray = f.toCharArray();
